@@ -127,6 +127,13 @@ export function NavigationMenuDemo() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href={'/hero-parralax'} legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            Hero Parralax
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );

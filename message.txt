@@ -1,0 +1,2 @@
+to format file with prettier, run the following command:
+bun prettier . --write

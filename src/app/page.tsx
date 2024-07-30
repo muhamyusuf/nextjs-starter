@@ -1,13 +1,13 @@
 import Image from 'next/image';
 
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import AppleCardsCarouselDemo from '@/components/example/apple-cards-carousel-demo-2';
+import HeroParallaxDemo from '@/components/example/hero-parallax-demo';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Label htmlFor="input">Input</Label>
-      <Input id="input" />
+    <main className="flex overflow-hidden min-h-screen flex-col items-center justify-between p-24">
+      <HeroParallaxDemo />
+      <AppleCardsCarouselDemo />
     </main>
   );
 }

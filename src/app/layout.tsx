@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import Footer from '@/components/Footer';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Navbar from '@/components/Navbar';
+import NavbarDemo from '@/components/example/navbar-menu-demo';
 import { ThemeProvider } from '@/components/theme-prodiver';
 
 const inter = Inter({ subsets: ['latin'] });
